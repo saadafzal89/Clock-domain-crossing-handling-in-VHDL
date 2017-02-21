@@ -1,12 +1,7 @@
 ------------READ ME-------------
 
-Team members:
-Vyas Kovakkat 
-Saad Afzal
-
 *****Part-1*****
 
-The incorrect code does not show non-zero average difference.
 The following steps were done to synchronize the pulse signal across the two clock domains:
 
 1. Added a 1-bit register entity in the source code folder.
@@ -34,5 +29,5 @@ The following steps were taken to synchronize the send_s and ack_s signal:
 
 *****Part-3*****
 
-Done as instructed by the professor in the lecture to achieve average difference of 0.0 on the zedboard.
+Done to achieve average difference of 0.0 on the zedboard.
 This is much faster compared to handshake synchronizer taking 3.2 seconds for the same test case.
